@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css" /> 
+    <link rel="icon" type="image/png" href="./images/logo.png">
+    <title>Ali Abdalla | Portfolio </title>
+</head>
+<body>
+    <div class="headerContainer"  id="home"> 
+        <div class="firstSection"> 
+            <div class="titleContainer">
+                <div class="name"> Ali  </div> 
+                <div class="sname">  Abdalla </div>
+                <div class="role"> <strong> Web  </strong> </div>
+                <div class="srole"> <strong> Developer </strong> </div>
+            </div>
+            <div class="patternContainer"> 
+                <img src="./images/wave.png" alt="Gray geometric pattern" class="pattern">
+            </div>
+        </div>
+    </div>
+    <div class="stickyBar"> 
+        <div class="linkContainer"> 
+            <button class="headingBtn"> <a href="#home" class="headingTxt"> Home </a> </button>
+            <div class="links">
+               
+                <button class="headingBtn"> <a href="#about" class="headingTxt"> About </a> </button>
+                <button class="headingBtn"> <a href="#projects" class="headingTxt"> Projects </a> </button>
+                <button class="headingBtn"> <a href="#contact" class="headingTxt"> Contact </a> </button>
+            </div>
+        </div>
+    </div>
+    <div class="secondSection" id="about"> 
+        <div class="aboutHeading"> About me  </div>
+        <div class="aboutText"> 
+           Hello! I'm a self taught full stack devoloper who has undergone a career change. <br>
+           Graduated with an Honours Bachelor of Science degree in Biology and shortly attended Pharmacy School before deciding to change my career direction. <br>
+           As of September 2022, I've been learning everything to do with Web Development, both frontend & backend. <br>
+           I completed an excellent curriculum provided by the Odin Project, and I am now ready to apply my skills to real-world projects and pursue job opportunities in the field.
+        </div>
+        <div class="imageContainer">      
+            <div class="colone"> 
+                <div class="iconName">
+                    <img src="./images/html.png" alt="html" class="icons">
+                    HTML 
+                </div> 
+                <div class="iconName">
+                <img src="./images/css.svg" alt="css" class="icons">
+                CSS
+                </div> 
+                <div class="iconName">
+                <img src="./images/javascript.svg" alt="javascript" class="icons">
+                JAVASCRIPT
+                </div> 
+            </div>
+            <div class="colone"> 
+                <div class="iconName">
+                <img src="./images/react.png" alt="react" class="icons">
+                REACT
+                </div> 
+                <div class="iconName">
+                <img src="./images/node.png" alt="node" class="icons">
+                NODEJS
+                </div> 
+                <div class="iconName">
+                <img src="./images/mongo.svg" alt="mongodb" class="icons">
+                MONGODB
+                </div> 
+            </div>
+            <div class="colone">
+                <div class="iconName">
+                <img src="./images/webpack.png" alt="webpack" class="icons">
+                WEBPACK
+                </div> 
+                <div class="iconName">
+                <img src="./images/npm.png" alt="npm" class="icons">
+                NPM
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="thirdSection"  id="projects"> 
+        <div class="projectsTitle">  </div>
+        <div class="projects"> 
+            <div class="projectName">  Twitter Clone </div>
+            <div class="projectDescription"> Built a full stack social media site using React, Node, Express, and MongoDB. The site includes a wide range of features such as customizable user profiles (with profile picture and cover picture), user search, direct messaging, tweets, comments, likes, follow/unfollow, personalized feeds based on follows, latest world news, and even the famous Twitter verification badge. </div>
+            <div class="btnContainer">
+                <button class="btnRedirect"> <a>Site Link </a> </button>
+                <button class="btnRedirect"> <a href="https://github.com/ali-a321/Twitter-Clone" target="_blank"> Github Link </a> </button>
+            </div>
+            <div class="projectDemo"> 
+                <img src="./images/twetterScreenshot.PNG" class="demoPics"/>
+                <video controls muted class="videos" preload="auto" autoplay>
+                    <source src="./videos/TwetterDemo.mp4" type="video/mp4">
+                </video>    
+            </div>            
+
+           
+        </div>
+        <div class="projects"> 
+            <div class="projectName">  Where's Waldo Type Game </div>
+            <div class="projectDescription"> Photo tagging game built with React, Node, and MongoDB. Displays & saves top scores in the leaderboard. </div>
+            <div class="btnContainer">
+                <button class="btnRedirect"> <a>Site Link </a> </button>
+                <button class="btnRedirect"> <a href="https://github.com/ali-a321/Wheres-Waldo-Type-Game" target="_blank"> Github Link </a> </button>
+            </div>
+            <div class="projectDemo"> 
+                <img src="./images/waldoScreenshot.PNG" class="demoPics"/>
+                <video controls muted class="videos" preload="auto" autoplay>
+                    <source src="./videos/WheresWaldo.mp4" type="video/mp4">
+                  </video>    
+            </div>
+           
+            
+            
+        </div>
+        <div class="projects"> 
+            <div class="projectName">  Memory Game  </div>
+            <div class="projectDescription"> Developed a memory game using React, featuring two levels of difficulty and utilizing key features such as state, props, hooks, and conditional rendering.  </div>
+            <div class="btnContainer">
+                <button class="btnRedirect"> <a>Site Link </a> </button>
+                <button class="btnRedirect"> <a href="https://github.com/ali-a321/Memory-Game" target="_blank"> Github Link </a> </button>
+            </div>
+               
+            </div>
+            <div class="projectDemo">
+                <img src="./images/memorygameScreenshot.PNG" class="demoPics"/>
+                <video controls muted class="videos" preload="auto" autoplay>
+                    <source src="./videos/memoryGame.mp4" type="video/mp4">
+                  </video>         
+            </div>
+         
+        </div>
+        <div class="projects"> 
+            <div class="projectName">  CV Creator </div>
+            <div class="projectDescription"> Created a dynamic React website that allows users to input their information into a form, which is then used to generate a personalized Cover Letter PDF using html2canvas and jsPDF. The website utilizes React features such as state, props, and hooks. </div>
+            <div class="btnContainer">
+                <button class="btnRedirect"> <a> Site Link </a> </button>
+                <button class="btnRedirect"> <a href="https://github.com/ali-a321/CV-App" target="_blank"> Github Link </a> </button>
+            </div>
+            <div class="projectDemo"> 
+                <img src="./images/cvappScreenshot.PNG" class="demoPics"/>
+                <video controls muted class="videos" preload="auto" autoplay>
+                    <source src="./videos/cvApp.mp4" type="video/mp4">
+                  </video>    
+              </div>
+        
+        </div>
+    
+        <div class="projects" > 
+            <div class="projectName">  Dental Site   </div>
+            <div class="projectDescription"> This project was built using React & MongoDB, and is mobile responsive. It includes a feedback and message form, Google Maps embed, and CSS transitions. The focus was on website design and UI, ensuring an optimal user experience on all devices. </div>
+            <div class="btnContainer">
+                <button class="btnRedirect"> <a>Site Link </a> </button>
+                <button class="btnRedirect"> <a href="https://github.com/ali-a321/Dental-Site-Dental-Glow-" target="_blank"> Github Link </a> </button>
+            </div>
+            <div class="projectDemo"> 
+                <img src="./images/dentalScreenshot.PNG" class="demoPics"/>
+                <video controls muted class="videos" preload="auto" autoplay>
+                    <source src="./videos/dentalSiteDemo.mp4" type="video/mp4">
+                </video> 
+
+            </div>
+        
+        </div>
+        <div class="projects" > 
+            <div class="projectName">  E-commerce Fasion Store  </div>
+            <div class="projectDescription"> Created using React. Has shopping cart functionality by  and utilizing key features such as state, props, hooks, and conditional rendering. </div>
+            <div class="btnContainer">
+                <button class="btnRedirect"> <a>Site Link </a> </button>
+                <button class="btnRedirect"> <a href="https://github.com/ali-a321/Shopping-Cart" target="_blank"> Github Link </a> </button>
+            </div>
+            <div class="projectDemo">
+                <img src="./images/shoppingcartScreenshot.PNG" class="demoPics"/>  
+                <video controls muted class="videos" preload="auto" autoplay>
+                    <source src="./videos/shoppingCart.mp4" type="video/mp4">
+                  </video>      
+            </div>
+        
+        </div>
+        <div class="projects"> 
+            <div class="projectName">  NFT search site </div>
+            <div class="projectDescription"> Otherdeed NFT search site that displays nft picture and its information through API calls.  </div>
+            <div class="btnContainer">
+                <button class="btnRedirect"> <a>Site Link </a> </button>
+                <button class="btnRedirect"> <a href="https://github.com/ali-a321/NFT-Search-Site-Otherdeed-" target="_blank"> Github Link </a> </button>
+            </div>
+            <div class="projectDemo"> 
+                <img src="./images/otherdeedScreenshot.PNG" class="demoPics"/>
+                <video controls muted class="videos" preload="auto" autoplay>
+                    <source src="./videos/otherdeedSearch.mp4" type="video/mp4">
+                </video>
+                <div class="play"> </div>
+            
+            </div>
+           
+        </div>
+
+
+    </div>
+    <div class="fourthSection"  id="contact"> 
+        <div class="projectsTitle" >  </div>
+        <div class="action"> Reach Out </div>
+        <div class="mail">  <a href="mailto:a1i86@outlook.com">Email me at: </a> a1i86@outlook.com</div>
+    </div>
+    <div class="footer"> 
+        <a href="#home" class="backTop"> Back to top </a>
+        <a href="https://github.com/ali-a321" target="_blank"> 
+            <img src="./images/gitlogo.svg" class="smallPics"/>
+        </a>
+        <a href="mailto:a1i86@outlook.com">
+
+            <img src="./images/emaillogo.svg" class="smallPics"/>
+        </a>
+
+
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
