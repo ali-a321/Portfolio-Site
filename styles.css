@@ -270,10 +270,11 @@ a{
     left: 10%;
     opacity: 1;
     max-width: 80%;
-    object-fit: cover;
+    object-fit: contain;
     transition: opacity 0.3s ease-in-out;
     margin-bottom: 2rem;
 }
+
   
 
 .demoPics:hover{
