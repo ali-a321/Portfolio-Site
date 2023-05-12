@@ -167,10 +167,31 @@ a{
     flex-direction: column;
     
 }
+@media (max-width: 550px) {
+    .iconName{
+        min-width: 4rem;
+        min-height: 4rem;
+    }
+    .icons{
+        width: 1.5rem;
+        height: 1.5rem;
+        margin-bottom: 0.5rem;
+    }
+
+}
 .colone{
     display: flex;
     margin-bottom: 1rem;
 }
+.coltwo{
+    display: flex;
+    margin-bottom: 1rem;
+}
+.colthree{
+    display: flex;
+    margin-bottom: 1rem;
+}
+
 .thirdSection{
     padding-top: 2rem;
     margin-left: 3rem;
@@ -219,7 +240,6 @@ a{
 .btnRedirect{
     background-color: #292c35 ;
     border-radius: 15px;
-    width: 6rem;
     height: 2rem;
     border: none;
     cursor: pointer;
