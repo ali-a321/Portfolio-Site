@@ -1,10 +1,4 @@
-const video = document.getElementById("myVideo");
-const playButton = document.getElementById("playButton");
 
-playButton.addEventListener("click", function() {
-  video.play();
-  playButton.style.display = "none";
-});
 
 // const videos = document.querySelectorAll('video');
 
