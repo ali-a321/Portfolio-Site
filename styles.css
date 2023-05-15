@@ -207,6 +207,7 @@ a{
 @media (max-width: 650px) {
     .projects{
         flex-direction: column;
+        display: block;
     }
 }
 .projectDescription{
@@ -231,8 +232,10 @@ a{
 
 }
 
-@media (max-width: 768px) {
-    
+@media (max-width: 650px) {
+    .projectDescription{
+        width: 75vw;
+    }
 }
 
 .fourthSection{
@@ -284,7 +287,11 @@ a{
 }
 @media (max-width: 650px) {
     .videoplay{
-        width: 50vw;
+        width: 73vw;
+    }
+    .btnContainer{
+        display: flex;
+        justify-content: center;
     }
 }
   
