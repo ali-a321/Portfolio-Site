@@ -43,12 +43,29 @@ a{
     border: none;
     font-size: 1rem;
 }
+.headingTtl{
+    font-size: 1.2rem;
+    margin-left: 2.6rem;
+
+}
+.headingTtl:hover{
+    color: #078a47;
+
+}
 .headingTxt{
     font-size: 1.2rem;
 }
 .headingTxt:hover{
     color: #078a47;
 
+}
+@media (max-width: 550px) {
+    .headingTtl{
+        font-size: 1.1rem;
+    }
+    .headingTxt{
+        font-size: 1.1rem;
+    }
 }
 .stickyBar{
     background: #292c35;
@@ -59,12 +76,15 @@ a{
     z-index: 4;
     margin-top: 1rem;
 }
+.links{
+    margin-right: 3rem ;
+}
 .linkContainer{
     width: 100%;
     max-width: 1600px;
     margin: 0 auto;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 .firstSection{
     display: flex;
@@ -138,10 +158,12 @@ a{
     font-size: clamp(1.6rem,5vw,1.8rem);
     margin-bottom: 1rem;
     margin-top: 2rem;
+    color: #32de84;
 }
 .aboutText{
     font-size: 1rem;
     margin-right: 2rem;
+    
 }
 .icons{
     width: 3rem;
@@ -178,6 +200,11 @@ a{
         margin-bottom: 0.5rem;
     }
 
+}
+@media (min-width: 1400px) {
+    .imageContainer{
+        display: block;
+    }
 }
 .colone{
     display: flex;
