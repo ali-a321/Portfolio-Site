@@ -59,14 +59,7 @@ a{
     color: #078a47;
 
 }
-@media (max-width: 550px) {
-    .headingTtl{
-        font-size: 1.1rem;
-    }
-    .headingTxt{
-        font-size: 1.1rem;
-    }
-}
+
 .stickyBar{
     background: #292c35;
     opacity: 95%;
@@ -85,6 +78,17 @@ a{
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
+}
+@media (max-width: 550px) {
+    .headingTtl{
+        font-size: 1.1rem;
+    }
+    .headingTxt{
+        font-size: 1.1rem;
+    }
+    .links{
+        margin-right: 1rem ;
+    }
 }
 .firstSection{
     display: flex;
