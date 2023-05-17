@@ -151,14 +151,7 @@ a{
     margin-left: 15%;
     animation: onLoad 1.3s ease-out 0s 1 normal none;
 }
-@media (min-width: 2000px) {
-    .patternContainer{
-        width: 20vw;
-    }
-    .titleContainer{
-        font-size: 9rem;
-    }
-}
+
 .secondSection{
     padding-top: 4rem;
     margin-right: 2rem;
