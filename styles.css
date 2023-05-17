@@ -10,11 +10,7 @@ body{
     color: whitesmoke;
     font-size: 1rem;
 }
-@media only screen and  (min-width: 769px){
-.headerContainer {
-  
-}
-}
+
 
 .headerContainer{
     position: relative;
@@ -31,6 +27,7 @@ body{
     border-bottom: 1px solid lightgray;
     color: whitesmoke;
 }
+
 a{
     text-decoration: none; 
     color: #32de84;
@@ -59,6 +56,7 @@ a{
     color: #078a47;
 
 }
+
 
 .stickyBar{
     background: #292c35;
@@ -153,22 +151,43 @@ a{
     margin-left: 15%;
     animation: onLoad 1.3s ease-out 0s 1 normal none;
 }
+@media (min-width: 2000px) {
+    .patternContainer{
+        width: 20vw;
+    }
+    .titleContainer{
+        font-size: 9rem;
+    }
+}
 .secondSection{
     padding-top: 4rem;
     margin-right: 2rem;
     margin-left: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  
 }
 .aboutHeading{
     font-size: clamp(1.6rem,5vw,1.8rem);
     margin-bottom: 1rem;
     margin-top: 2rem;
     color: #32de84;
+    text-align: left; 
+    width: 100%;
+}
+@media (min-width:2000px) {
+    .aboutHeading{
+        width: auto;
+    }
 }
 .aboutText{
     font-size: 1rem;
     margin-right: 2rem;
     
 }
+
 .icons{
     width: 3rem;
     height: 3rem;
@@ -224,9 +243,13 @@ a{
 }
 
 .thirdSection{
-    padding-top: 2rem;
     margin-left: 3rem;
     margin-right: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-top: 1px solid white;
 }
 .projects{
     margin-top: 2rem;
@@ -253,7 +276,7 @@ a{
     margin-top: 2rem;
     display: flex;
     justify-content: center;
-    border-bottom: 1px solid white;
+   
 }
 .projectName{
     margin-top: 1rem;
@@ -273,7 +296,11 @@ a{
     margin-left: 3rem;
     margin-bottom: 6rem;
     margin-right: 2rem;
-    padding-top: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-top: 1px solid white;
 }
 .btnRedirect{
     background-color: #292c35 ;
@@ -337,6 +364,7 @@ a{
 } */
 .action{
     font-size: 2rem;
+    margin-bottom: 0.5rem;
 }
 .smallPics{
     width: 3rem;
